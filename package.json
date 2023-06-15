@@ -1,0 +1,17 @@
+{
+  "name": "savne-liquibase",
+  "title": "Savne-Liquibase",
+  "description": "Extension that allows interacting with liquibase from starUML.",
+  "homepage": "https://savne.net/",
+  "version": "1.0.0",
+  "keywords": ["Savne", "database", "liquibase", "postgres"],
+  "author": {
+    "name": "Esteban Becerra",
+    "email": "esteban.becerra@savne.net",
+    "url": "https://github.com/JuanEstebanB"
+  },
+  "license": "MIT",
+  "engines": {
+    "staruml": ">=5.0.0"
+  }
+}

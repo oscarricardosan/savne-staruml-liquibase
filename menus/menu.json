@@ -1,0 +1,26 @@
+{
+  "menu": [
+    {
+      "id": "tools",
+      "submenu": [
+        {
+          "id": "SavneMenu.Liquibase",
+          "label": "Savne Liquibase",
+          "submenu": [
+            {
+              "label": "Generate liquibase migration",
+              "id": "SavneMenu.Liquibase.ExportMigrations",
+              "command": "Savne-Liquibase:ExportMigrations"
+            },
+            {
+              "label": "Configure...",
+              "id": "SavneMenu.Liquibase.Configure",
+              "command": "Savne-Liquibase:Configure"
+            },
+            { "type": "separator" }
+          ]
+        }
+      ]
+    }
+  ]
+}

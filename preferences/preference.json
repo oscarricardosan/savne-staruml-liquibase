@@ -1,0 +1,34 @@
+{
+  "id": "savne",
+  "name": "Savne",
+  "schema": {
+    "savne.liquibaseGenerator": {
+      "text": "Liquibase export",
+      "type": "section"
+    },
+    "savne.liquibaseGenerator.owner": {
+      "text": "Owner name",
+      "description": "Postgresql objects owner name",
+      "type": "String",
+      "default": "postgres"
+    },
+    "savne.liquibaseGenerator.author": {
+      "text": "Author",
+      "description": "Changeset author",
+      "type": "string",
+      "default": "admin@savne.net"
+    },
+    "savne.liquibaseGenerator.indentSpaces": {
+      "text": "Indent Spaces",
+      "description": "Number of indentation spaces.",
+      "type": "number",
+      "default": 4
+    },
+    "savne.liquibaseGenerator.cascadeConstraints": {
+      "text": "Cascade constraints",
+      "description": "Recursive rollback",
+      "type": "check",
+      "default": false
+    }
+  }
+}

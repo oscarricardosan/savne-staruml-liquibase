@@ -1,0 +1,4 @@
+{
+  "cmdctrl-w": "savne:exportToSQL",
+  "cmdctrl-p": "savne:configure"
+}
